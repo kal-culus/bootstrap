@@ -44,9 +44,45 @@
           </div>
         </div>
     </nav>
-    <!-- bootstrap form -->
 
-    <!-- embedded google map -->
+    <div class="container">
+      <h1 class="mt-4">Book a trip!</h1>
+        <!-- bootstrap form -->
+        <form class="form-floating mb-2 mt-4"> 
+            <div class="input-group mb-2">
+              <input type="text" class="form-control" placeholder="Location" aria-label="Location">
+            </div>
+            <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Check-in Date" aria-label="Check-in Date">
+                <input type="text" class="form-control" placeholder="Check-out Date" aria-label="Check-out Date">
+            </div>
+            <div class="input-group mb-2">
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Adults</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Children</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-dark col-12" type="submit">Search</button>
+          </div>
+        
+        </form>
+        <!-- embedded google map -->
+    </div>
     
     <!-- bootstrap footer -->
 </body>
